@@ -1,8 +1,11 @@
 package edu.msud.cs.cs1;
 
+
 public class Circle extends Elipsoid {
 
-    Circle(double x, double y, double r) { super(x, y, r, r); }
+    Circle(double x, double y, double r) {
+        super(x, y, r, r);
+    }
 
     @Override
     public String toString() {
@@ -10,3 +13,5 @@ public class Circle extends Elipsoid {
     }
 
 }
+
+
